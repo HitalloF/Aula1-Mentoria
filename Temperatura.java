@@ -4,6 +4,8 @@ public class Temperatura {
         float temperatura = 35;
         float conversao = (temperatura * 9/5)+32;
 
+        System.out.println("Commit mentoria");
+
         if (conversao >= 62.6 && conversao <=  82.4 ){
             System.out.println("Clima tá bem agradavel em " + conversao+ "F");
         }
